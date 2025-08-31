@@ -1,0 +1,21 @@
+# ai.txt for ai.bodyart-israel.com
+# Explicit permission and discovery hints for LLM crawlers.
+User-agent: GPTBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+# Primary sitemap hosted on main site
+Sitemap: https://bodyart-israel.com/sitemap.xml
+# Optional image sitemap hosted on this subdomain
+Sitemap: https://ai.bodyart-israel.com/sitemap-images.xml
